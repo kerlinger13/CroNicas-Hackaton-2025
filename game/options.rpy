@@ -13,7 +13,11 @@
 ##
 ## El _() que rodea la cadena de texto la señala como traducible.
 
+<<<<<<< HEAD
 define config.name = _("Guerrero Eterno")
+=======
+define config.name = _("Demo")
+>>>>>>> 511c54ea69a908281f135aa78904d1a7612c9d32
 
 
 ## Determina si el título dado más arriba se muestra en el menú principal.
@@ -30,12 +34,16 @@ define config.version = "1.0"
 ## Texto situado en la pantalla 'Acerca de' del juego. Sitúa el texto entre
 ## comillas triples y deja una línea en blanco entre párrafos.
 
+<<<<<<< HEAD
 define gui.about = _p("""CroNicas
 Desarrollando el juego Guerrero Eterno, para Hackathon 2025.
 
 Somos un equipo de Jinotega, estudiantes de la UNAN-León CUR-Jinotega.
 
 ¡Gracias por probar nuestro juego!
+=======
+define gui.about = _p("""
+>>>>>>> 511c54ea69a908281f135aa78904d1a7612c9d32
 """)
 
 
@@ -156,7 +164,11 @@ define config.save_directory = "Demo-1758640369"
 ##
 ## El icono mostrado en la barra de tareas.
 
+<<<<<<< HEAD
 define config.window_icon = "android-icon.png"
+=======
+define config.window_icon = "gui/window_icon.png"
+>>>>>>> 511c54ea69a908281f135aa78904d1a7612c9d32
 
 
 ## Configuración de 'Build' ####################################################
